@@ -1,0 +1,28 @@
+//pongo aqui todos los elementos header//
+/* header */ 
+header{
+    .navbar{
+        display: flex;
+        justify-content: space-evenly;        
+        background-color: $alternative;
+        &__img{
+            width: 70px;
+            height: 50px;            
+            //margin-left: 30%;//
+        }
+        .nav-link{
+            position: relative;
+            transition: color 0.3s ease-in-out;
+            &:hover{                
+                 color: $primary;
+            }
+        }
+        .navbar-brand:hover{
+            color: $primary;
+        }
+                       
+                      
+        
+    }   
+
+}

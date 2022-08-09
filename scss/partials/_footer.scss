@@ -1,0 +1,38 @@
+/* Footer*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;    
+    background-color: $alternative;
+    &__img{
+        width: 70px;   
+        height: 70px; 
+        justify-self: center;
+        align-self: center;
+        padding: $spacing-small;
+    }
+    &__nav{
+        align-self: center;
+        justify-self: center;
+        margin-left: 10%;
+    }
+    &__info{        
+        align-self: center;
+        justify-self: center;
+        width: auto;
+    }    
+    &__info ul{
+        list-style-type: none;
+
+    }
+    &__info li{
+        text-decoration: none;    
+        display: inline-block;
+    }
+    .red__ico{
+        width: 55px;
+        padding: 20%;
+    }
+}

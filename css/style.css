@@ -1,0 +1,260 @@
+/*reset*/
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*variables*/
+/*mixings a utilizar en index*/
+/*Main*/
+.main__container {
+  background-image: url(/sources/fondo_principal.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .main__container .main__h1 {
+    text-align: center;
+    color: #fafafa;
+    padding: 4vw;
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: "Lato", sans-serif; }
+  .main__container .cards .card__h2 {
+    text-align: center;
+    color: #fafafa;
+    padding: 4vw;
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: "Lato", sans-serif; }
+  .main__container .cards .cards__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2vw; }
+  .main__container .cards .card {
+    background: transparent;
+    border: none; }
+    .main__container .cards .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start; }
+
+/* header */
+header .navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #000000; }
+  header .navbar__img {
+    width: 70px;
+    height: 50px; }
+  header .navbar .nav-link {
+    position: relative;
+    transition: color 0.3s ease-in-out; }
+    header .navbar .nav-link:hover {
+      color: #e6c611; }
+  header .navbar .navbar-brand:hover {
+    color: #e6c611; }
+
+/*body*/
+body {
+  font-family: "Heebo", sans-serif;
+  background-color: #000000; }
+
+/* Footer*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  background-color: #000000; }
+  .footer__img {
+    width: 70px;
+    height: 70px;
+    justify-self: center;
+    align-self: center;
+    padding: 1.5vw; }
+  .footer__nav {
+    align-self: center;
+    justify-self: center;
+    margin-left: 10%; }
+  .footer__info {
+    align-self: center;
+    justify-self: center;
+    width: auto; }
+  .footer__info ul {
+    list-style-type: none; }
+  .footer__info li {
+    text-decoration: none;
+    display: inline-block; }
+  .footer .red__ico {
+    width: 55px;
+    padding: 20%; }
+
+/*videos*/
+.video__container {
+  background-image: url(/sources/fondo_principal.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .video__container h1 {
+    text-align: center;
+    color: #fafafa;
+    padding: 1.5vw;
+    font-size: 12vw;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+    text-shadow: black 0.1em 0.1em 0.2em; }
+  .video__container h2 {
+    text-align: center;
+    color: #fafafa;
+    padding: 4vw;
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: "Lato", sans-serif; }
+  .video__container h3 {
+    text-align: center;
+    color: #fafafa;
+    padding: 0.1vw;
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-top: 10%; }
+  .video__container p {
+    text-align: center;
+    color: #fafafa;
+    font-size: 3vw;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-left: 15%;
+    margin-right: 15%; }
+
+/*peliculas*/
+.main__container2 {
+  background-image: url(/sources/estrella-muerte2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.peli__h1 {
+  text-align: center;
+  color: #fafafa;
+  padding: 1.5vw;
+  font-size: 12vw;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  text-shadow: black 0.1em 0.1em 0.2em; }
+
+/*registro*/
+.registro__container {
+  background-image: url(/sources/fondo_registro.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .registro__container h1 {
+    text-align: center;
+    color: #fafafa;
+    padding: 4vw;
+    font-size: 12vw;
+    font-weight: bold;
+    font-family: "Lato", sans-serif; }
+
+.registro {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+  text-align: center;
+  color: #fafafa;
+  font-size: 3vw;
+  text-shadow: black 0.1em 0.1em 0.2em; }
+
+.force {
+  text-align: center;
+  color: #e6c611;
+  font-size: 3vw;
+  font-style: italic;
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 5%; }
+
+/*juegos*/
+.main__container3 {
+  background-image: url(/sources/fondo_juegos.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .main__container3 h2 {
+    text-align: center;
+    color: #fafafa;
+    padding: 4vw;
+    font-size: 6vw;
+    font-weight: bold;
+    font-family: "Lato", sans-serif; }
+
+.card-title {
+  color: #fafafa;
+  padding: 1.5vw;
+  font-size: 4vw;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  text-shadow: black 0.1em 0.1em 0.2em; }
+
+.card-text {
+  text-align: center;
+  color: #fafafa;
+  font-size: 3vw;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  margin-left: 15%;
+  margin-right: 15%; }
+
+/* media query min 576px*/
+@media screen and (min-width: 576px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center; }
+    .footer__img {
+      width: 20vw;
+      min-height: 20vh; }
+    .footer__info li {
+      font-size: 1em; }
+  .main__h1 {
+    font-size: 4.1em; }
+  .card__h2 {
+    font-size: 2.5em; }
+  .derechos {
+    font-size: 1.3em; }
+  .registro__container h1 {
+    font-size: 4.1em; }
+  .registro {
+    font-size: 1.3em; }
+  .force {
+    font-size: 1.3em; }
+  .video__container h1 {
+    font-size: 4.1em; }
+  .video__container h2 {
+    font-size: 2.5em; }
+  .video__container h3 {
+    font-size: 1.7em; }
+  .video__container p {
+    font-size: 1.3em; }
+  .peli__h1 {
+    font-size: 2.5em; }
+  .card-title {
+    font-size: 1.7em;
+    text-align: center; }
+  .card-text {
+    font-size: 1.3em;
+    text-align: left; }
+  .main__container3 h2 {
+    font-size: 2.5em; } }

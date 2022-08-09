@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "<h1>DESAFIOS BOOTSTRAP - CODERHOUSE</h1>\r <p>Este repositorio esta destinado a la realizacion de un proyecto de sitio web maketado 100% con bootstrap.</p>\r <p>Este proyecto es una pagina de tributo a Star Wars</p>\r <p>En una primera instancia y bajo el primer COMMIT, las paginas maketadas son HOME (index) y Registro.</p>\r <p>En la primer pagina se podra encontrar un carousel con imagenes y texto, y mas abajo unas tarjetas con animaciones anunciando diferentes noticias y novedades que respectan al universo de star wars.</p>\r <p>En la segunda pagina, la de registro, se puede encontrar un formulario para completar con datos.</p>\r <P>En todas las paginas encontraran maketacion con bootstrap en el navbar, footer y la incorporacion de una alerta en la parte superior de la pantalla para poder suscribirse a nuestro sitio</P>\r <p>En el segundo COMMIT se adjuntaran las paginas restantes para completar un sitio 100% maketado en sus 5 paginas con bootstrap</p>\r <p>Tecnologias utilizadas</p>\r <ul>\r     <li>Bootstrap</li>\r     <li>AOS - Animate On Scroll Library</li>\r </ul>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivansirianni/bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivansirianni/bootstrap/issues"
+  },
+  "homepage": "https://github.com/ivansirianni/bootstrap#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.0"
+  }
+}

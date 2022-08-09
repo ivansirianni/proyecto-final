@@ -1,0 +1,32 @@
+/*registro*/
+.registro__container{
+    background-image: url(/sources/fondo_registro.jpg);
+    @include bgp-bgr-bgz-bga;
+    & h1{
+        text-align: center;
+        color: $secondary;
+        padding: $spacing-large;
+        font-size: $text-large;
+        font-weight: bold;
+        font-family: $font-title;              
+    }
+    
+}
+.registro{ 
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    text-align: center;
+    color: $secondary;
+    font-size: $text-small; 
+    text-shadow: black 0.1em 0.1em 0.2em;   
+}
+.force{
+    text-align: center;
+    color: $primary;
+    font-size: $text-small;
+    font-style: italic;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}

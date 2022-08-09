@@ -1,0 +1,23 @@
+/*mixings a utilizar en index*/
+@mixin bgp-bgr-bgz-bga{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@mixin titles{
+    text-align: center;
+    color: $secondary;
+    padding: $spacing-large;
+    font-size: $text-xmedium;
+    font-weight: bold;
+    font-family: $font-title;
+}
+@mixin subtitles{
+    text-align: center;
+    color: $secondary;
+    padding: $spacing-large;
+    font-size: $text-medium;
+    font-weight: bold;
+    font-family: $font-title;
+}

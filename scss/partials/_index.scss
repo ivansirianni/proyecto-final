@@ -1,0 +1,33 @@
+/*Main*/ //esta linea de ve en css//
+//aqui va todo lo del main// esta linea no se ve
+.main__container{
+        background-image: url(/sources/fondo_principal.jpg);        
+        @include bgp-bgr-bgz-bga;
+        .main__h1{
+            @include titles;
+        }
+        .cards{
+            .card__h2{
+            @include subtitles;
+            
+        }
+       
+        .cards__container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: $spacing-medium;
+        }
+        .card{
+            background: transparent;
+            border: none;
+            &-body{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+            }
+        }    
+    }               
+}
+

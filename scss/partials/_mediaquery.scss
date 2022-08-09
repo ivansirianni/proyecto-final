@@ -1,0 +1,71 @@
+/* media query min 576px*/
+@media screen and (min-width: 576px){
+    
+    .footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        &__img{
+            width: 20vw;
+            min-height: 20vh;
+        }        
+        &__info li{
+            font-size: $text-xs;
+        }
+    } 
+    .main__h1{
+        font-size: $text-l;
+    }   
+    .card__h2{        
+        font-size: $text-xm;
+    }
+    
+    .derechos{        
+        font-size: $text-s;
+    }
+    .registro__container{
+        & h1{
+            font-size: $text-l;
+        }
+    }    
+    .registro{        
+        font-size: $text-s;
+    }
+    .force{
+        font-size: $text-s;
+    }
+    .video__container{
+        & h1{
+            font-size: $text-l;
+        }
+        & h2{
+            font-size: $text-xm;
+        }
+        & h3{
+            font-size: $text-m;
+        }
+        & p{
+            font-size: $text-s;
+        }
+    }    
+    .peli__h1{
+        font-size: $text-xm;
+    }
+    .card{
+        &-title{            
+            font-size: $text-m;
+            text-align: center;            
+        }
+        &-text{            
+            font-size: $text-s;
+            text-align: left; 
+        }
+    }
+    .main__container3{
+        h2{
+            font-size: $text-xm;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+/*videos*/
+.video__container{
+    background-image: url(/sources/fondo_principal.jpg);
+    @include bgp-bgr-bgz-bga;
+    & h1{
+        text-align: center;
+        color: $secondary;
+        padding: $spacing-small;
+        font-size: $text-large;
+        font-weight: bold;
+        font-family: $font-title;
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+    & h2{
+        text-align: center;
+        color: $secondary;
+        padding: $spacing-large;
+        font-size: $text-xmedium;
+        font-weight: bold;
+        font-family: $font-title;
+    } 
+    & h3{
+        text-align: center;
+        color: $secondary;
+        padding: $spacing-xsmall;    
+        font-size: $text-medium;
+        font-weight: bold;
+        font-family: $font-title;
+        text-shadow: black 0.1em 0.1em 0.2em;
+        margin-top: 10%;
+    }
+    & p{
+        text-align: center;    
+        color: $secondary;
+        font-size: $text-small; 
+        text-shadow: black 0.1em 0.1em 0.2em;  
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}

@@ -1,0 +1,19 @@
+@import "./partials/reset";
+@import "./partials/variables";
+@import "./partials/mixins";
+
+@import "./partials/index";
+@import "./partials/header";
+@import "./partials/body";
+@import "./partials/footer";
+
+@import "./partials/videos";
+@import "./partials/peliculas";
+@import "./partials/registro";
+@import "./partials/juegos";
+
+@import "./partials/mediaquery";//siempre al final de los imports//
+
+
+
+

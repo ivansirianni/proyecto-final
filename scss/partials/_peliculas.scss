@@ -1,0 +1,14 @@
+/*peliculas*/
+.main__container2{
+    background-image: url(/sources/estrella-muerte2.jpg);
+    @include bgp-bgr-bgz-bga;
+}
+.peli__h1{
+    text-align: center;
+    color: $secondary;
+    padding: $spacing-small;
+    font-size: $text-large;
+    font-weight: bold;
+    font-family: $font-title;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
